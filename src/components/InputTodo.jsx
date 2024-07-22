@@ -1,10 +1,10 @@
 
 
-export const InputTodo = (props) => {
+export const InputTodo = ({todo, setTodo, addTask}) => {
     return (
         <>
-            <input value={props.todo} onChange={(e) => props.setTodo(e.target.value)}/>
-            <button className={"input__button"} onClick={() => props.addTask()}>Добавить</button>
+            <input value={todo} onChange={(e) => setTodo(e.target.value)}/>
+            <button className={"input__button"} onClick={() => addTask()}>Добавить</button>
         </>
     )
 }
