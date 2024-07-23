@@ -1,0 +1,24 @@
+.TaskTodo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+button{
+    cursor: pointer;
+    background-color: violet;
+    border: none;
+    padding: 5px;
+}
+.input__button{
+    margin-left: 10px;
+}
+.task__button{
+    height: 22px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+input{
+    padding: 5px;
+}
